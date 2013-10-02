@@ -208,7 +208,7 @@ define(function (require) {
             string_value,
             user_data = {};
 
-        if ($.cookie('dsatok') !== undefined) {
+        if (typeof($.cookie('dsatok')) === 'string') {
             // The dsatok cookie is comprised of two encoded strings with a
             // period separating them, we want the first part.
             cookie_value = $.cookie('dsatok').replace('"', '').split(':')[0];

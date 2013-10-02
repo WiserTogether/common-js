@@ -65,7 +65,7 @@ define([
     utils.API.getToken = function () {
         var api_csrf_token = $.cookie('api_csrf_token');
 
-        if (api_csrf_token === undefined) {
+        if (typeof(api_csrf_token) !== 'string') {
             return '';
         }
 
