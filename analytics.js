@@ -11,7 +11,7 @@ define(function (require) {
         CryptoJS = require('crypto.aes'),
         Wiser = require('./wiser-global');
     require('jquery.cookie');
-    require('./utils');
+    require('./common');
 
     Wiser.Analytics = Wiser.Analytics || {};
 
