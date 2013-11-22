@@ -56,7 +56,8 @@ require(['jquery', 'easyxdm'], function ($, easyXDM) {
                         'https://wiser-stg.com',
                         'https://wiser-prd.com',
                         'https://mywiserhealth.com',
-                        'https://healthactionlab.com'
+                        'https://healthactionlab.com',
+                        'http://dev.wsrcdn.net'
                     ], // exact strings or regular expressions
                     i = 0;
 
