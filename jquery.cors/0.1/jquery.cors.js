@@ -31,8 +31,8 @@ define(function (require) {
         $ = require('jquery'),
         JSON = require('json2'),
         console = require('console-shim'),
-        easyXDM = require('./easyxdm/easyxdm'),
-        jquery_cors_path = '/static-optimized/js/lib/jquery.cors/0.1/',
+        easyXDM = require('easyxdm'),
+        jquery_cors_path = 'js/lib/jquery.cors/0.1/',
         easyXDM_path = jquery_cors_path + '/easyxdm/',
         easyXDM_connections = {},
         jquery_cors = {};
