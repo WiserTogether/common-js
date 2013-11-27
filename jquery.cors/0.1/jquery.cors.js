@@ -32,7 +32,7 @@ define(function (require) {
         JSON = require('json2'),
         console = require('console-shim'),
         easyXDM = require('./easyxdm/easyxdm'),
-        jquery_cors_path = 'js/common-js/jquery.cors/0.1/',
+        jquery_cors_path = 'js/wiser-commonjs/jquery.cors/0.1/',
         easyXDM_path = jquery_cors_path + '/easyxdm/',
         easyXDM_connections = {},
         jquery_cors = {};
