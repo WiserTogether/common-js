@@ -50,6 +50,8 @@ require(['jquery', 'easyxdm'], function ($, easyXDM) {
                     alwaysTrustedOrigins = [
                         'https://localhost:2443',
                         'http://localhost:8888',
+                        'http://wsrcdn.net',
+                        'https://wsrcdn.net',
                         'https://localhost:8888',
                         'https://wiser-local.com:2443',
                         'https://wiser-local.com',
