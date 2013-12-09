@@ -49,6 +49,7 @@ require(['jquery', 'easyxdm'], function ($, easyXDM) {
                     alwaysTrusted = false,
                     alwaysTrustedOrigins = [
                         'https://localhost:2443',
+                        'http://localhost:8888',
                         'https://wiser-local.com:2443',
                         'https://wiser-local.com',
                         'https://wiser-dev.com',
@@ -60,7 +61,8 @@ require(['jquery', 'easyxdm'], function ($, easyXDM) {
                         'https://dev.wsrcdn.net.s3.amazonaws.com',
                         'https://dev.wsrcdn.net',
                         'https://b.wsrcdn.net',
-                        'https://b.wsrcdn.net.s3.amazonaws.com'
+                        'https://b.wsrcdn.net.s3.amazonaws.com',
+                        'https://mothra-wisertogether.rhcloud.com'
                     ], // exact strings or regular expressions
                     i = 0;
 
