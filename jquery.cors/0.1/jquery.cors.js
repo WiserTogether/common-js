@@ -32,10 +32,13 @@ define(function (require) {
         JSON = require('json2'),
         console = require('console-shim'),
         easyXDM = require('./easyxdm/easyxdm'),
-        jquery_cors_path = '/static-sources/js/lib/jquery.cors/0.1/',
+        jquery_cors_path = '/static-optimized/js/lib/jquery.cors/0.1/',
         easyXDM_path = jquery_cors_path + '/easyxdm/',
         easyXDM_connections = {},
         jquery_cors = {};
+        console.log("init");
+        console.log(easyXDM);
+        console.log("next");
 
     /**
      * Configure jQuery for CrossDomain CORS requests
