@@ -655,8 +655,9 @@ define([
             form.model.action.save({success: function (model, resp) {
                 // Validate all fields on submission
                 form.validate_all();
+                form.save();
                 if (form.is_valid) {
-                    form.save();
+                    //form.save();
                 } else {
                     form.throbber.destroy();
                     form.force_disable_spotcheck = false;
