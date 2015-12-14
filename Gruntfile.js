@@ -50,7 +50,6 @@ module.exports = function(grunt) {
       options: {
         bitwise: true,
         browser: true,
-        browser: true,
         curly: true,
         eqeqeq: true,
         immed: true,
