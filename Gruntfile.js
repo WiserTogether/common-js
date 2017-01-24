@@ -17,7 +17,6 @@ module.exports = function(grunt) {
     done();
   };
 
-
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -35,14 +34,14 @@ module.exports = function(grunt) {
     },
 
     compass: {
-        production: {
-            options: {
-                sassDir: 'src/scss',
-                cssDir: 'src/build/css',
-                imagesDir: 'src/img',
-                environment: 'production'
-            }
+      production: {
+        options: {
+          sassDir: 'src/scss',
+          cssDir: 'src/build/css',
+          imagesDir: 'src/img',
+          environment: 'production'
         }
+      }
     },
 
     jshint: {

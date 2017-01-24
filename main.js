@@ -7,7 +7,6 @@ define(function(require) {
 
   require('jquery.cors');
 
-
   Wiser.Analytics = Wiser.Analytics || {};
   Wiser.Analytics.DEFAULT_MODULE_NAME = 'survey';
   AnalyticsApp.init();

@@ -1,3 +1,4 @@
+/*global exports:true*/
 (function(root, factory) {
   if (typeof exports !== 'undefined') {
     factory(root, exports);
@@ -11,11 +12,11 @@
 }(this, function(root, config) {
   function requireModule(name, path, exports, deps) {
     var shim = {},
-        maps = [];
+      maps = [];
 
     if (typeof(name) === 'object') {
-        maps = name.slice(1);
-        name = name[0];
+      maps = name.slice(1);
+      name = name[0];
     }
 
     // Allow shorthand for bower
@@ -24,9 +25,9 @@
     config.paths[name] = path;
 
     if (maps.length > 0) {
-        for (var i = 0; i < maps.length; i = i + 1) {
-            config.map['*'][maps[i]] = name;
-        }
+      for (var i = 0; i < maps.length; i = i + 1) {
+        config.map['*'][maps[i]] = name;
+      }
     }
 
     if (exports || deps) {
@@ -38,8 +39,7 @@
 
       if (typeof(exports) === 'function') {
         shim.init = exports;
-      }
-      else {
+      } else {
         shim.exports = exports;
       }
     }

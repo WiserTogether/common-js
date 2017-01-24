@@ -2,7 +2,7 @@
   'use strict';
 
   var require = window.require,
-      define = window.define;
+    define = window.define;
 
   require(['./config'], function(config) {
     require.config(config);
